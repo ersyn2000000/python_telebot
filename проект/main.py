@@ -4,10 +4,10 @@ from telebot import types
 
 
 
-bot=telebot.TeleBot('1688513164:AAEShtdW3XayQ0TN5jWr7CqLr3dm85F0Clo')
+bot=telebot.TeleBot('')
 
 headers = {
-    'x-rapidapi-key': "502d93af37mshb810b0fbd2d32eep142068jsn728a7939f616",
+    'x-rapidapi-key': "",
     'x-rapidapi-host': "fixer-fixer-currency-v1.p.rapidapi.com"
     }
 @bot.message_handler(commands=['help'])
